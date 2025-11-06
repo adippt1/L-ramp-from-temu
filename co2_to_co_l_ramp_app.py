@@ -1,6 +1,6 @@
 # co2_to_co_l_ramp_app.py
 # Streamlit L-RAMP Dashboard — CO2->CO Electrolyzer
-# Author: ChatGPT (GPT-5 Thinking) + Aditya Prajapati
+# Author: Aditya Prajapati
 # Run with: streamlit run co2_to_co_l_ramp_app.py
 
 from __future__ import annotations
@@ -19,6 +19,13 @@ st.set_page_config(
     page_icon="🧪",
     layout="wide"
 )
+
+# ------------------------- CRISP Title Block -------------------------
+st.markdown("""
+# 🧩 **CRISP** — *CO₂ Risk Identification & Scale-up Planning*
+### *Because a CRISP plan keeps scale-up from crumbling.*
+---
+""")
 
 # ------------------------- Helpers -------------------------
 def _init_session_state():
