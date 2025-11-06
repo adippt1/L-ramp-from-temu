@@ -26,6 +26,16 @@ st.markdown("""
 ### *Because a CRISP plan keeps scale-up from crumbling.*
 ---
 """)
+with st.sidebar:
+    st.markdown(
+        """
+        ---
+        **Created by**  
+        **[Aditya Prajapati (Adi)](https://people.llnl.gov/prajapati3)**
+        ---
+        """,
+        unsafe_allow_html=True
+    )
 
 # ------------------------- Helpers -------------------------
 def _init_session_state():
