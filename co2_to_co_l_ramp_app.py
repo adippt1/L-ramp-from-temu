@@ -175,13 +175,10 @@ for a CO2->CO electrolyzer.
 st.markdown("---")
 st.subheader("References")
 st.markdown("""
-1. [Nitopi, Stephanie, et al. "Progress and perspectives of electrochemical CO2 reduction on copper in aqueous electrolyte." 
-Chemical reviews 119.12 (2019): 7610-7672.](https://pubs.acs.org/doi/full/10.1021/acs.chemrev.8b00705)
+1. [Moore, Thomas, et al. "Accelerating climate technologies through the science of scale-up." Nature Chemical Engineering 1.12 (2024): 731-740.](https://www.nature.com/articles/s44286-024-00143-0)
 
-2. [Perry, John H. "Chemical engineers' handbook." (1950): 533.](https://pubs.acs.org/doi/pdf/10.1021/ed027p533.1): 
-Link is just an exerpt but a good starting point for one to go out in the wild to find this book.
+2. [CHEESE 🧀](https://co2-electrolysis-scaling-dashboard-5kernyncggyov5w4aeoxma.streamlit.app)
 
-3. [Data, C. P. T. NIST Chemistry WebBook, NIST Standard Reference Database Number 69, 2005.](https://webbook.nist.gov/chemistry/)
 """)
 
 # ------------------------- 1) Application Benchmarking -------------------------
